@@ -2,6 +2,7 @@
 import { onMounted, reactive, ref } from 'vue';
 import ListPokemons from '../components/ListPokemons.vue';
 
+let baseUrlSvg = ref("https://raw.githubusercontent.com/PokeApi/sprites/master/sprites/pokemon/other/dream-world/");
 let pokemons = reactive(ref());
 
 onMounted(() => {
